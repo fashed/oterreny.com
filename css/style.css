@@ -1,0 +1,40 @@
+body {
+	font-family: 'Quicksand', 'Helvetica', 'Arial' sans-serif;
+    font-size: 14px;
+}
+
+.navbar-inverse {
+    background-color: rgba(255,255,255,0.4);
+    border: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #555;
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #555;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #999;
+    background-color: transparent;
+}
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+.navbar {
+    min-height: 140px;
+}
+
+@media (min-width: 768px)
+.navbar-nav>li>a {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}

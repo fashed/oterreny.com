@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Oterre NY</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand brand" href="index.html"><img src ="images/logo.png" alt="logo"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row margin-adjust learnmore" id="about">
+            <div class="col-md-6">
+                <h3>Oterre</h3>
+                <p>Oterre is a design duo comprising of <a href="http://www.charisalexander.com/">Charis Alexander</a> and <a href=
+                "http://www.choijennifer.com/"> Jennifer Choi</a>, Parsons The New School for Design alumni based in NYC. Created from a shared love for design, fashion and technology, the first collection centers around a concept of play and introducing it into the mundane. 
+                <br /><br />
+                Accessories are a daily part of modern human life – the simple habit of subtly changing one's appearance influences both personal and external impressions. This act of customization is celebrated through the use of 3D printing as a method for rapidly creating lightweight, wearable designs inspired by elemental shapes and crisp outlines. When juxtaposed with rich materials, delicate pendants lend an air of sophistication.
+            </div>
+            <div class="col-md-6">
+                <img src="images/bracelet.jpg">
+            </div>
+        </div>
+
+        <div class="row margin adjust">
+            <div class ="col-md-12 col-lg-6 contactadjust">
+               <img src="images/woman.jpg">
+            </div>
+            <div class ="col-md-12 col-lg-6 contactwoman">
+                <h3>Let's Talk</h3>
+                <p>Would love to feature us or collaborate?<br>Feel free to email us at <a href="mailto:info@oterreny.com">info@oterreny.com</a> or simply use this form.</p>
+                <div id="contact-area">
+            
+                    <form method="post" action="contactengine.php">
+                        <label for="Name">Name</label>
+                        <input type="text" name="Name" id="Name" placeholder="Your Name" />
+            
+                        <label for="Email">Email</label>
+                        <input type="text" name="Email" id="Email" placeholder="email@address.com"/>
+                        
+                        <label for="Message">Message</label><br />
+                        <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+                        <input type="submit" name="submit" value="SEND" class="submit-button btn-primary" />
+                    </form>
+            
+                    <div style="clear: both;"></div>
+        
+                </div>
+            </div> <!-- col-md-6 ends -->
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-xs-12 col-md-10">
+                    <p class="pull-left">Oterre NYC &copy; 2016</p>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <a href="http://facebook.com/oterreny" class="pull-left"><i class="fa fa-facebook-official"></i></a>
+                    <a href="http://instagram.com/oterreny" class="pull-left"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
